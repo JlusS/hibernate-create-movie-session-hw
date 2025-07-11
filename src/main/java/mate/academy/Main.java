@@ -26,7 +26,7 @@ public class Main {
 
         CinemaHall hall = new CinemaHall();
         hall.setCapacity(150);
-        hall.setMovie("3D IMAX Hall Cinema by Kryvyi Rih");
+        hall.setDescription("3D IMAX Hall Cinema by Kryvyi Rih");
         cinemaHallService.add(hall);
 
         MovieSession movieSession = new MovieSession();
